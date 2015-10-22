@@ -1,10 +1,10 @@
 var gulp = require('gulp');
 var babelify = require('babelify');
 var browserify = require('browserify');
-var source = require('vinyl-source-stream'); /* Using vinyl stream to convert string to a readable node stream */
+var source = require('vinyl-source-stream'); 
 
 gulp.task('browserify', function() {
-  return browserify('js/main.js')
+  return browserify('app/js/main.js')
     .transform(babelify)
     .bundle()
     .pipe(source('bundle.js'))

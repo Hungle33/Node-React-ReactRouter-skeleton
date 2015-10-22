@@ -6,7 +6,7 @@
   "scripts": {
     "start": "babel-node server.js"
   },
-  "author": "Hung Le <hungle33@hotmail.com> (https://github.com/Hungle33)",
+  "author": "Hung Le <hungleweb@gmail.com> (https://github.com/Hungle33)",
   "license": "MIT",
   "dependencies": {
     "babel": "5.8.23",
